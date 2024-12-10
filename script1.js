@@ -2,7 +2,7 @@ function goToPage() {
     window.location.href = '../index.html';
 }
 function goTohomePage() {
-    window.location.href = './index.html';
+    window.location.href = '../index.html';
 }
 
 function theme() {
