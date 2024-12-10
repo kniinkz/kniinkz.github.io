@@ -1,0 +1,197 @@
+:root {
+    --background-color: #fffcdd;
+    --card-color: #f0c55b;
+    --text-color: #333;
+    --btn-color: #f0925b;
+}
+
+[data-theme="dark"] {
+    --background-color: #272727;
+    --card-color: #474747;
+    --text-color: #c7c7c7;
+    --btn-color: #9f9f9f;
+}
+
+.title {
+    background-color: var(--card-color);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.text {
+    font-family: "Parkinsans", sans-serif;
+    color: var(--text-color);
+}
+
+.profile {
+    background-color: var(--card-color);
+    font-size: 20px;
+    /* border: solid 2px; */
+    /* border-radius: 10px;
+    border-color: rgb(207, 145, 63); */
+    border-bottom: 2px solid;
+    padding: 1px 1px;
+    font-style: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* margin-top: 30px;
+    margin-right: 20x; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 10px 20px;
+}
+
+/* .profile img{
+    width: 50px;
+    height: 50px;
+   position: relative;
+   left: 1050px;  
+ */
+.Aboutme {
+    font-style: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fabc10;
+    position: relative;
+    left: 50px;
+    font-size: 60px;
+
+
+}
+
+.imgmyself {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 20px;
+}
+.imgmyself:hover{
+    height: 600px;
+    width: 600px;
+    transition-duration: 1s;
+    box-shadow: 0 4px 20px rgb(0, 0, 0)
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: var(--card-color);
+    bottom: 10px;
+
+    padding: 10px;
+    /* gap: 20px; */
+}
+
+.history {
+    font-weight: 100;
+    font-size: 50px;
+    font-style: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5px;
+
+
+    background-color: rgba(255, 255, 255, 0.377);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    height: fit-content;
+    top: 5%;
+}
+
+.contact {
+    font-size: 25px;
+    font-style: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 20px;
+    top: 50px;
+
+}
+
+@media screen and (max-width: 300px) {
+    .container2 {
+        display: grid;
+        grid-template-rows: 50% 50%;
+        background-color: aquamarine;
+    }
+}
+
+.hobby {
+    font-size: 25px;
+    font-style: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 20px;
+    top: 20px;
+
+}
+
+.imghobby {
+    margin-top: 20px;
+
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: absolute;
+    top: 5px;
+    right: 50px;
+}
+
+.icon-container:hover {
+    transform: scale(1.3);
+}
+
+.home-icon {
+    width: 30px;
+    height: 50px;
+    background: url('https://img.icons8.com/ios-filled/50/home.png') no-repeat center;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+
+.sun-icon {
+    width: 40px;
+    height: 50px;
+    background: url('https://img.icons8.com/ios-filled/50/light.png') no-repeat center;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+
+.sun-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: absolute;
+    top: 5px;
+    right: 120px;
+}
+
+.sun-container:hover {
+    transform: scale(1.3);
+}
+
+.title {
+    background-color: var(--card-color);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: "Parkinsans", sans-serif;
+    color: var(--text-color);
+    height: 1000px;
+}
